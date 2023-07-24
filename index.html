@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            BMI Claculator
+        </div>
+        <div class="gender-container">
+        <label for="Gender">Gender</label>
+        <div class="gender">
+            <img src="imgs/male.png"   alt=""  width="30px" height="30px"  id="male"  class="male">
+            <img src="imgs/female.png" alt=""  width="30px" height="30px"  id="female" class="female">
+        </div>
+    </div>
+        <div class="tile">
+        <p>Age</p><input type="number" class="input" id="age">
+        </div>
+
+        <div class="tile">
+            <p>Weight</p>
+           <input type="text" placeholder="kg" id="weight">
+        </div>
+
+        <div class="tile">
+            <p>Height</p>
+            <input type="text" placeholder="m" id="height">
+         </div>
+        
+         <button class="button">Claculate</button>
+         <div class="tile">
+           <p>BMI</p><div class="bmi"></div><p>kg/m<sup>2</sup></p>
+         </div>
+         <div class="status"></div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
