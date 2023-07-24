@@ -1,0 +1,109 @@
+.container{
+    width: 100%;
+    border: 2px solid rgb(9, 242, 9);
+    width: 30vw;
+    text-align: center;
+    height: 37rem;
+    margin: auto;
+    background-color: rgb(104, 104, 43);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+body{
+    background-color: rgb(207, 207, 207);
+}
+.head{
+    font-size: 1.5rem;
+    color: rgb(13, 240, 13);
+    background-color: rgb(253, 253, 12);
+    height: 7vh;
+    padding-top: 1rem;
+    border-bottom: 2px solid rgb(9, 242, 9);
+}
+body{
+font-family: sans-serif;
+outline: none;
+}
+.gender{
+   width: 8vw;
+   padding-left: 0.5rem;
+   border: 2px solid rgb(23, 237, 3);
+   border-radius: 50px;
+   height: 7vh;
+   display: flex;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   margin: auto;
+   margin-top: 1.3rem;
+   margin-left: 2rem;
+}
+.select{
+    background-color: rgb(23, 237, 3);
+}
+.gender img{
+    padding-left: -0.5rem;
+    width: 2.5rem;
+    height: 6vh;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#female{
+    margin-left: 0.5rem;
+}
+.tile{
+    display: flex;
+    align-items: center;
+    margin-top: 1.3rem;
+}
+p{
+    width: 10vw;
+    color: rgb(20, 186, 5);
+    font-size: 1.3rem;
+}
+input{
+  height: 2rem;
+  color: rgb(20, 186, 5);
+  font-size: 1.3rem;
+  width: 9rem;
+  text-align: center;
+  background-color: white;
+  border: 1.5px solid rgb(23, 237, 3);
+  border-radius: 2rem;
+}
+.bmi{
+    height: 2rem;
+    color: rgb(20, 186, 5);
+    font-size: 1.3rem;
+    width: 9rem;
+    text-align: center;
+    background-color: white;
+    border: 1.5px solid rgb(23, 237, 3);
+    border-radius: 2rem;
+    margin-top: 0rem;
+    padding-top: 0.7rem;
+}
+button{
+    margin-top: 1.6rem;
+    background-color: rgb(254, 254, 254);
+    color: black;
+    border: none;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid rgb(20, 186, 5);
+    color: rgb(20, 186, 5);
+}
+
+.gender-container{
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    font-size: 1.3rem;
+    color: rgb(20, 186, 5);
+    margin: 0 2rem;
+}
+
+.status{
+    color: rgb(20, 186, 5);
+    font-size: 1.3rem;
+}
